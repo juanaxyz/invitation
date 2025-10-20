@@ -406,7 +406,7 @@ section {
     position: relative;
     min-height: 70px;
     flex-wrap: wrap;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 button {

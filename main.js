@@ -22,7 +22,7 @@ yesBtn.addEventListener("click", () => {
     }, 3000); // Delay in milliseconds (2000ms = 2 seconds)
 });
 
-noBtn.addEventListener("mouseenter", () => {
+noBtn.addEventListener("click", () => {
     const maxX = window.innerWidth - noBtn.offsetWidth - 40;
     const maxY = window.innerHeight - noBtn.offsetHeight - 40;
 
