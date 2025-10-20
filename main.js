@@ -34,10 +34,6 @@ noBtn.addEventListener("click", () => {
     noBtn.style.top = randomY + "px";
 });
 
-noBtn.addEventListener("click", (e) => {
-    e.preventDefault();
-});
-
 // Smooth scroll for better experience
 document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
     anchor.addEventListener("click", function (e) {
